@@ -1,4 +1,5 @@
-2. The Formula 1 season consists of a series of races, known as Grand Prix, organized by the
+2.
+The Formula 1 season consists of a series of races, known as Grand Prix, organized by the
 International Federation of Automobile (FIA). The results of each Grand Prix are combined to
 determine Pilots\' World Championship. More specifically, for each race some points are
 distributed to pilots, depending on their classification in the race. At the end of the season, the
@@ -18,6 +19,7 @@ point? To end the speculation, FIA hired you to write a program that, given the 
 a season determines the World Champion for different scoring systems.
 
 Input
+
 The input contains several test cases. The first line of a test case contains two integers G and P
 separated by a blank space, indicating the number of Grand Prix (1 ≤ G ≤ 100) and the number of
 pilots (1 ≤ P ≤ 100).. Pilots are identified by integers from 1 to P. Each of the following G lines
@@ -31,7 +33,9 @@ points, followed by a blank space, followed by e K integers k0, k1, ... , kn−1
 by spaces, indicating the number of points to be assigned (the first integer indicates the points for first
 place, the second integer indicates the points for second place and so on). The last test case is
 followed by a line containing only two zeros separated by a blank space.
+
 Output
+
 For each scoring system in the input your program must print one line, containing the identifier of the
 World Champion. If more than one pilot are World Champions (ie, if there is a tie), the line must
 contain all World Champions, in increasing order of identifier, separated by a space.
